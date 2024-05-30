@@ -1,0 +1,79 @@
+form {
+    max-width: 100%;
+    width: 100%;
+    margin: 20px 20px;
+}
+form .money {
+    font-weight: 600;
+}
+
+.inputMoney {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 2px solid #F43F5E;
+    border: none;
+}
+
+.iconDola svg{
+    color: black;
+    width: 25px;
+    transform: translate(-30px, 50%);
+}
+    
+.optionBuild {
+    margin-top: 20px;
+}
+select {
+    width: 96%;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: 2px solid #F43F5E;
+    border: none;
+}
+    
+
+.text-more-option {
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    width: 96%;
+}
+button {
+    width: 96%;
+    padding: 12px 0px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F43F5E;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ef6179;
+}
+    
+
